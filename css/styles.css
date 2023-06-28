@@ -11,7 +11,7 @@
 body {
 	font-family: Roboto, sans-serif;
 	background-color: var(--white);
-	color: var(--navyblue);
+	color: #434455;
 	letter-spacing: 0.02em;
 }
 
@@ -54,17 +54,17 @@ h3 {
 /**---HEADER----*/
 
 .header-logo {
-	color: inherit;
+	color: var(--iris);
 	font-size: 18px;
-	font-family: Raleway;
+	font-family: Raleway, sans-serif;
 	font-weight: 800;
-	line-height: 1.16;
+	line-height: 1.17;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 }
 
 .header-logo-accent {
-	color: var(--iris);
+	color: var(--navyblue);
 }
 
 .nav-link {
@@ -78,6 +78,10 @@ h3 {
 .nav-link:focus {
 	color: var(--ocean);
 	text-decoration: underline;
+}
+
+.address {
+	font-style: normal;
 }
 
 .address-link {
@@ -103,6 +107,7 @@ h3 {
 	font-size: 56px;
 	font-weight: 700;
 	line-height: 1.07;
+	letter-spacing: 0.02em;
 }
 
 .hero-button {
@@ -113,6 +118,7 @@ h3 {
 	line-height: 1.5;
 	letter-spacing: 0.04em;
 	cursor: pointer;
+	font-family: 'Roboto', sans-serif;
 }
 
 .hero-button:hover,
@@ -129,6 +135,7 @@ h3 {
 	font-weight: 700;
 	line-height: 1.11;
 	text-transform: capitalize;
+	letter-spacing: 0.02em;
 }
 
 /**------------ OUR TEAM-------------- */
@@ -144,6 +151,11 @@ h3 {
 	font-weight: 700;
 	line-height: 1.11;
 	text-transform: capitalize;
+	letter-spacing: 0.02em;
+}
+
+.team-list {
+	background-color: #ffffff;
 }
 
 /**------------ FOOTER-------------- */
@@ -152,17 +164,17 @@ footer {
 	background-color: var(--navyblue);
 }
 .footer-logo {
-	color: var(--cloud);
+	color: var(--iris);
 	font-size: 18px;
-	font-family: Raleway;
+	font-family: Raleway, sans-serif;
 	font-weight: 800;
-	line-height: 1.16;
+	line-height: 1.17;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 }
 
 .footer-logo-accent {
-	color: var(--iris);
+	color: var(--cloud);
 }
 
 .footer-logo-text {
@@ -175,10 +187,9 @@ footer {
 /**------------ PAGE PORTFOLIO-------------- */
 
 .portfolio-button {
-	color: var(--accent-color);
+	color: var(--iris);
 	background-color: var(--cloud);
 	border: 1px solid var(--cornflower);
-	border-radius: 4px;
 	text-align: center;
 	font-size: 16px;
 	font-family: inherit;
@@ -192,9 +203,6 @@ footer {
 .portfolio-button:focus {
 	color: var(--white);
 	background-color: var(--ocean);
-	border-radius: 4px;
-	box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-		0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
 .portfolio-list-header {
