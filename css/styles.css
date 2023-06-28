@@ -8,6 +8,19 @@
 	--cornflower: #e7e9fc;
 }
 
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
 body {
 	font-family: Roboto, sans-serif;
 	background-color: var(--white);
@@ -31,24 +44,12 @@ p {
 }
 
 h3 {
-	color: inherit;
+	color: var(--navyblue);
 	font-size: 20px;
 	font-family: inherit;
 	font-weight: 500;
 	line-height: 1.2;
-}
-
-.visually-hidden {
-	position: absolute;
-	width: 1px;
-	height: 1px;
-	margin: -1px;
-	border: 0;
-	padding: 0;
-	white-space: nowrap;
-	clip-path: inset(100%);
-	clip: rect(0 0 0 0);
-	overflow: hidden;
+	letter-spacing: 0.02em;
 }
 
 /**---HEADER----*/
@@ -68,7 +69,7 @@ h3 {
 }
 
 .nav-link {
-	color: inherit;
+	color: var(--navyblue);
 	font-size: 16px;
 	font-weight: 500;
 	line-height: 1.5;
@@ -129,7 +130,7 @@ h3 {
 /**------------ WE DOING-------------- */
 
 .we-doing-header {
-	color: inherit;
+	color: var(--navyblue);
 	text-align: center;
 	font-size: 36px;
 	font-weight: 700;
@@ -145,7 +146,7 @@ h3 {
 }
 
 .our-team-header {
-	color: inherit;
+	color: var(--navyblue);
 	text-align: center;
 	font-size: 36px;
 	font-weight: 700;
